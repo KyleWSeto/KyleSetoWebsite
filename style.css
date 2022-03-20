@@ -74,8 +74,8 @@ img.about_picture {
   display: inline-block;
   vertical-align: top;
   align-self: auto;
-  float:left;
-  position:relative;
+  float: left;
+  position: relative;
   left: 120px;
   bottom: 70px;
   height: 650px;
@@ -201,4 +201,107 @@ p.content_experience {
   font-size: 32px;
   background-color: #4682b4;
   padding: 10px;
+}
+
+section.travel_header {
+  text-align: center;
+}
+
+div.travel_header_bg {
+  background-image: url("IMG_1083.png");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 2000px;
+  position: relative;
+  bottom: 100px;
+}
+
+h2.travel_header {
+  background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
+  font-size: 48px;
+  font-family: 'Content';
+  position: relative;
+  top: 500px;
+}
+
+section.travel_body_1 {
+  background-color: #87cefa;
+  background-size: contain;
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+  height: 1000px;
+}
+
+div.travel_block {
+  font-size: 36px;
+  font-family: 'Content';
+}
+
+h3.travel_block {
+  background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
+  text-align: center;
+  font-family: 'Content';
+}
+
+p.paragraph_block {
+  background-color: #1e90ff;
+  border-top: 20px solid #6495ed;
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Content';
+  font-size: 32px;
+  margin-left: 300px;
+  margin-right: 300px;
+  position: relative;
+  top: 100px;
+}
+
+section.travel_body_2 {
+  background-color: #87cefa;
+  text-align: center;
+  position: relative;
+  bottom: 200px;
+  height: 1200px;
+  overflow: hidden;
+}
+
+div.travel_block_1 {
+  font-size: 36px;
+  font-family: 'Content';
+}
+
+div.travel_block_1_inner {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+div.travel_block_1_inner_des1 {
+  position: relative;
+  top: 600px;
+  right: 900px;
+}
+
+div.travel_block_1_inner_2 {
+  position: relative;
+  top: 25px;
+  left: 400px;
+}
+
+div.travel_block_1_inner_des2 {
+  position: relative;
+  top: 600px;
+  right: 650px;
+}
+
+section.travel_footer {
+  text-align: center;
+  font-size: 32px;
+  background-color: #4682b4;
+  padding: 10px;
+  position: relative;
+  bottom: 200px;
+  overflow: hidden;
 }
