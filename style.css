@@ -98,11 +98,14 @@ p.content {
   border-top: 20px solid #6495ed;
   border-radius: 4px;
   text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
   font-family: 'Content';
   font-size: 32px;
+  max-width: 1400px;
+  max-height: 500px;
   margin-left: 500px;
   margin-right: 200px;
-  height: 500px;
   position: relative;
   left: 50px;
 }
@@ -144,8 +147,9 @@ div.list {
 ul {
   background-color: #87cefa;
   border-radius: 4px;
-  margin-left: 750px;
-  margin-right: 750px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0;
   position: relative;
   list-style: inside;
@@ -154,6 +158,8 @@ ul {
 
 li {
   font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
 }
 
 section.experience {
@@ -182,6 +188,8 @@ div.content_experience {
 h3.content_experience {
   font-size: 48px;
   font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
 }
 
 p.content_experience {
@@ -192,6 +200,9 @@ p.content_experience {
   border-radius: 4px;
   font-size: 24px;
   font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
+  max-height: 700px;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -221,6 +232,8 @@ h2.travel_header {
   background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
   font-size: 48px;
   font-family: 'Content';
+  overflow: auto;
+  text-overflow: ellipsis;
   position: relative;
   top: 500px;
 }
@@ -242,6 +255,8 @@ div.travel_block {
 h3.travel_block {
   background-image: linear-gradient(to bottom right, #4682b4 0%, #f0ffff 100%);
   text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
   font-family: 'Content';
 }
 
@@ -250,8 +265,11 @@ p.paragraph_block {
   border-top: 20px solid #6495ed;
   border-radius: 4px;
   text-align: center;
+  overflow: auto;
+  text-overflow: ellipsis;
   font-family: 'Content';
   font-size: 32px;
+  max-height: 600px;
   margin-left: 300px;
   margin-right: 300px;
   position: relative;
@@ -263,7 +281,7 @@ section.travel_body_2 {
   text-align: center;
   position: relative;
   bottom: 200px;
-  height: 2000px;
+  max-height: 4000px;
   overflow: hidden;
 }
 
@@ -273,9 +291,7 @@ div.travel_block_1 {
 }
 
 div.travel_block_1_inner {
-  position: relative;
-  top: 100px;
-  left: 100px;
+  display: inline-block;
 }
 
 img.picture1 {
@@ -284,24 +300,14 @@ img.picture1 {
   align-self: auto;
   float: left;
   position: relative;
-  left: 120px;
-  bottom: 70px;
   height: 650px;
   border-radius: 4px;
   border-top: 20px solid #6495ed;
   overflow-y: hidden;
 }
 
-div.travel_block_1_inner_des1 {
-  position: relative;
-  top: 600px;
-  right: 900px;
-}
-
 div.travel_block_1_inner_2 {
-  position: relative;
-  top: 25px;
-  left: 400px;
+  display: inline-block;
 }
 
 img.picture2 {
@@ -310,24 +316,14 @@ img.picture2 {
   align-self: auto;
   float: left;
   position: relative;
-  left: 120px;
-  bottom: 70px;
   height: 650px;
   border-radius: 4px;
   border-top: 20px solid #6495ed;
   overflow-y: hidden;
 }
 
-div.travel_block_1_inner_des2 {
-  position: relative;
-  top: 600px;
-  right: 650px;
-}
-
 div.travel_block_1_inner_3 {
-  position: relative;
-  top: 100px;
-  left: 100px;
+  display: inline-block;
 }
 
 img.picture3 {
@@ -336,24 +332,14 @@ img.picture3 {
   align-self: auto;
   float: left;
   position: relative;
-  top: 100px;
-  left: 120px;
   height: 650px;
   border-radius: 4px;
   border-top: 20px solid #6495ed;
   overflow-y: hidden;
 }
 
-div.travel_block_1_inner_des3 {
-  position: relative;
-  top: 1350px;
-  right: 1100px;
-}
-
 div.travel_block_1_inner_4 {
-  position: relative;
-  top: 25px;
-  left: 400px;
+  display: inline-block;
 }
 
 img.picture4 {
@@ -362,18 +348,10 @@ img.picture4 {
   align-self: auto;
   float: left;
   position: relative;
-  top: 175px;
-  left: 17px;
   height: 650px;
   border-radius: 4px;
   border-top: 20px solid #6495ed;
   overflow-y: hidden;
-}
-
-div.travel_block_1_inner_des4 {
-  position: relative;
-  top: 1350px;
-  right: 485px;
 }
 
 section.travel_footer {
